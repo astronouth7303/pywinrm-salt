@@ -25,7 +25,7 @@ class Protocol(object):
             self, endpoint, transport='plaintext', username=None,
             password=None, realm=None, service=None, keytab=None,
             ca_trust_path=None, cert_pem=None, cert_key_pem=None,
-            server_cert_validation='validate',
+            server_cert_validation='ignore',
             kerberos_delegation=False,
             read_timeout_sec=DEFAULT_READ_TIMEOUT_SEC,
             operation_timeout_sec=DEFAULT_OPERATION_TIMEOUT_SEC,
