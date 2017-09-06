@@ -1,4 +1,6 @@
-# pywinrm 
+This fork of pywinrm applies a simple modification to support salt.
+
+# pywinrm
 pywinrm is a Python client for the Windows Remote Management (WinRM) service.
 It allows you to invoke commands on target Windows machines from any machine
 that can run Python.
@@ -8,8 +10,8 @@ that can run Python.
 [![AppVeyor Build](https://ci.appveyor.com/api/projects/status/github/diyan/pywinrm?svg=true)](https://ci.appveyor.com/project/diyan/pywinrm) [![Coverage](https://coveralls.io/repos/diyan/pywinrm/badge.svg)](https://coveralls.io/r/diyan/pywinrm)
 [![PyPI](https://img.shields.io/pypi/dm/pywinrm.svg)](https://pypi.python.org/pypi/pywinrm)
 
-WinRM allows you to perform various management tasks remotely. These include, 
-but are not limited to: running batch scripts, powershell scripts, and fetching 
+WinRM allows you to perform various management tasks remotely. These include,
+but are not limited to: running batch scripts, powershell scripts, and fetching
 WMI variables.
 
 Used by [Ansible](https://www.ansible.com/) for Windows support.
